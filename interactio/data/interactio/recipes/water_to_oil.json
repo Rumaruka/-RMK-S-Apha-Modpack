@@ -1,0 +1,30 @@
+{
+  "type": "interactio:fluid_fluid_transform",
+  "items": [
+    {
+      "tag": "forge:storage_blocks/coal",
+      "count": 9,
+      "return_chance": 1
+    }
+  ],
+  "input": {
+    "fluid": "water"
+  },
+  "output": {
+    "entries": [
+      {
+        "result": {
+          "fluid": "omegacraft:refined_oil"
+        },
+        "weight": 9
+      },
+      {
+        "result": {
+          "fluid": "omegacraft:oil"
+        },
+        "weight": 5
+      }
+    ],
+    "empty_weight": 7
+  }
+}
